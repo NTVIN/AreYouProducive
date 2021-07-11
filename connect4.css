@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    background: lightgray;
+}
 
 body {
     align-items: center;
-    background: white;
+    background: lightgray;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -62,7 +65,7 @@ h1 {
 }
 
 .cell.row-top {
-    background: white;
+    background: lightgray;
 }
 
 .cell.row-top::after {

@@ -8,7 +8,7 @@ body{
     top: 50%;
     transform: translate(-50%,-50%);
     background-color: #fafafa;
-    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+
     width: 460px;
     height: 680px;
     text-align: center;
@@ -45,7 +45,7 @@ ul{
 li{
     list-style: none;
     padding: 10px 5px;
-    background-color: #fff;
+    background-color: red;
     margin: 12px 0;
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
     border-radius: 3px;
@@ -56,7 +56,7 @@ button:hover{
 }
 
 li:hover{
-    background-color: #e0e0e0;
+    background-color: lightgreen;
 }
 
 .checked{

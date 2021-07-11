@@ -34,6 +34,20 @@ button{
     color: #fafafa;
 
 }
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+    padding: 7px 14px;
+    background-color: #00b0ff;
+    border: none;
+    border-radius: 4px;
+    color: #fafafa;
+
+}
+
 .element-list{
     height: 550px;
     overflow-y: scroll
@@ -42,10 +56,11 @@ ul{
     padding: 15px;
 
 }
+
 li{
     list-style: none;
     padding: 10px 5px;
-    background-color: red;
+    background-color:  #ff073a;
     margin: 12px 0;
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
     border-radius: 3px;

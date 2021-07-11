@@ -15,6 +15,10 @@
     text-transform: uppercase;
 }
 
+.no:hover {
+    background-color: darkblue;
+}
+
 .container {
     margin: 0;
     position: absolute;
@@ -26,12 +30,13 @@
 }
 
 html {
-    background: yellow;
+    background: lightgray;
 }
-header{
+
+header {
+    background-color: whitesmoke;
     border-color: #040710;
     border-radius: 10px;
-
     border-style: solid;
 }
 

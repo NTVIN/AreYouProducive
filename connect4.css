@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     background: lightgray;
 }
 
@@ -52,6 +53,7 @@ h1 {
 .cell:not(.row-top).red::after {
     background: red;
 }
+
 .cell:not(.row-top).yellow::after {
     background: yellow;
 }
@@ -90,7 +92,7 @@ h1 {
 }
 
 .reset {
-    background-color: #4370F1;
+    background-color: #00b0ff;
     border-radius: 5px;
     border: none;
     color: white;
@@ -103,7 +105,7 @@ h1 {
 }
 
 .no {
-    background-color: #4370F1;
+    background-color: #00b0ff;
     margin-left: auto;
     border-radius: 5px;
     border: none;
@@ -123,6 +125,10 @@ h1 {
 .reset:active {
     background-color: #4d7ef1;
 
+}
+
+.no:hover {
+    background-color: #1D50F1;
 }
 
 .status {
